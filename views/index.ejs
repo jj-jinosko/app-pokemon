@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1>app-pokemon</h1>
+    <p>Your random pokemon is: 
+       <% if (locals.name) { %>
+    <%= locals.name %>
+       <% } else { %>
+            TBD
+       <% }%>
+    </p>
     
 </body>
 </html>
