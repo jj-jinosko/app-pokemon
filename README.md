@@ -6,3 +6,4 @@ Technologies:
 - pokemon api: https://pokeapi.co/
 - express
 - axios
+- ejs
